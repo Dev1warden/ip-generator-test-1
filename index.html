@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced IP Address Generator</title>
+  <meta name="description" content="Generate or mutate IP addresses instantly! Copy, share, and enjoy this fun and useful tool.">
+  <!-- Social/SEO tags -->
+  <meta property="og:title" content="Advanced IP Address Generator">
+  <meta property="og:description" content="Generate or mutate IP addresses instantly! Copy, share, and enjoy this fun and useful tool.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="YOUR_SITE_URL_HERE">
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/9919?s=200&v=4">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Advanced IP Address Generator">
+  <meta name="twitter:description" content="Generate or mutate IP addresses instantly! Copy, share, and enjoy this fun and useful tool.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌐 Advanced IP Address Generator</h1>
+    <div class="output">
+      <p id="ip-address" class="ip-placeholder">Click "Generate" or enter your own IP</p>
+    </div>
+    <input id="ip-input" type="text" placeholder="Enter your own IP (e.g. 192.168.1.1)" autocomplete="off">
+    <div class="button-row">
+      <button id="generate-btn">Generate IP</button>
+      <button id="mutate-btn">Mutate</button>
+      <button id="copy-btn" title="Copy IP to clipboard">📋 Copy</button>
+      <button id="share-btn" title="Share this IP">🔗 Share</button>
+    </div>
+    <div class="counter">
+      <span id="counter-number">0</span> IPs generated this session
+    </div>
+  </div>
+  <footer>
+    <p>Created with 💻 & ❤️ &nbsp;•&nbsp; <a href="https://github.com/Dev1warden" target="_blank" rel="noopener">View on GitHub</a></p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
